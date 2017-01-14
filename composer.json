@@ -1,0 +1,11 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "guzzlehttp/guzzle":"6.*"
+    },
+
+    "autoload": {
+        "classmap": [	"src/classes"       ],
+        "files":     [   "src/globals.php"]
+    }		
+}
